@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <title>Register</title>
     <link rel="stylesheet" href="./src/style/style.css">
+    <script src="src/index.js" type="module"></script>
 </head>
 <body>
 <main class="container">
-    <form action="" class="form">
+    <form action="" class="form" id="register">
         <h1>Register</h1>
         <label for="email" hidden>Email</label>
-        <input type="text" id="email" placeholder="Email">
+        <input name="email" type="text" id="email" placeholder="Email">
         <label for="login" hidden>Login</label>
-        <input type="text" id="login" placeholder="Login">
+        <input name="login" type="text" id="login" placeholder="Login">
         <label for="firstname" hidden>FirstName</label>
-        <input type="text" id="firstname" placeholder="FirstName">
+        <input name="firstname" type="text" id="firstname" placeholder="FirstName">
         <label for="lastname" hidden>LastName</label>
-        <input type="text" id="lastname" placeholder="LastName">
+        <input name="lastname" type="text" id="lastname" placeholder="LastName">
         <label for="phone" hidden>Phone</label>
-        <input type="tel" id="phone" placeholder="Phone">
+        <input name="phone" type="tel" id="phone" placeholder="Phone">
         <label for="password" hidden>Password</label>
-        <input type="password" id="password" placeholder="Password">
+        <input name="password" type="password" id="password" placeholder="Password">
         <label for="confirm-password" hidden>Confirm Password</label>
-        <input type="password" id="confirm-password" placeholder="Confirm Password">
+        <input name="confirm_password" type="password" id="confirm-password" placeholder="Confirm Password">
         <button class="btn">Register</button>
     </form>
 

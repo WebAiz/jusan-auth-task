@@ -8,7 +8,7 @@ export function serverError() {
 
 export function handleRoute() {
     const pathname = window.location.pathname;
-    if (pathname !== '/' && pathname !== 'index.html') {
+    if (pathname !== '/' && pathname !== '/index.html' && pathname !== '/register.html') {
         notFoundPage()
     }
 }
