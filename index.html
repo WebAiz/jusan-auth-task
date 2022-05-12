@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="src/index.js" type="module"></script>
     <meta charset="UTF-8">
-    <title>Auth App</title>
+    <title>Auth</title>
     <link rel="stylesheet" href="./src/style/style.css">
-
+    <script src="src/index.js" type="module"></script>
 </head>
 <body>
-    <div id="root"></div>
-    <a href="auth.html">Auth page</a>
-    <a href="register.html">Regsiter page</a>
+<main class="container">
+    <form action="" class="form">
+        <h1>Login</h1>
+        <label for="login" hidden></label>
+        <input type="text" id="login" placeholder="Login">
+        <label for="password" hidden>Password</label>
+        <input type="password" id="password" placeholder="Password">
+        <button class="btn">Sing In</button>
+        <a href="/register.html">Нет аккаунта? Регистрация</a>
+    </form>
+</main>
 </body>
 </html>
