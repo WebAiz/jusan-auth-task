@@ -11,31 +11,25 @@
     <form action="" class="form" id="register">
         <h1>Register</h1>
         <label for="email" hidden>Email</label>
-        <input name="email" type="text" id="email" placeholder="Email">
+        <input name="email" type="text" id="email" placeholder="Email" required pattern="[^@]+@[^\.]+\..+">
         <label for="login" hidden>Login</label>
-        <input name="login" type="text" id="login" placeholder="Login">
+        <input name="login" type="text" id="login" placeholder="Login" required minlength="3" maxlength="15">
         <label for="firstname" hidden>FirstName</label>
-        <input name="firstname" type="text" id="firstname" placeholder="FirstName">
+        <input name="firstname" type="text" id="firstname" placeholder="FirstName" pattern="SD">
         <label for="lastname" hidden>LastName</label>
         <input name="lastname" type="text" id="lastname" placeholder="LastName">
         <label for="phone" hidden>Phone</label>
-        <input name="phone" type="tel" id="phone" placeholder="Phone">
+        <input name="phone" type="tel" id="phone" placeholder="Phone" required minlength="8" maxlength="15">
         <label for="password" hidden>Password</label>
-        <input name="password" type="password" id="password" placeholder="Password">
+        <input name="password" type="password" id="password" placeholder="Password" required minlength="8" maxlength="30">
         <label for="confirm-password" hidden>Confirm Password</label>
         <input name="confirm_password" type="password" id="confirm-password" placeholder="Confirm Password">
-        <button class="btn">Register</button>
+        <button type="submit" class="btn">Register</button>
     </form>
 
 </main>
 
-<!--    Имя-->
-<!--    Фамилия-->
-<!--    Логин-->
-<!--    email-->
-<!--    Телефон-->
-<!--    Парол-->
-<!--Проверки:-->
+
 
 <!--Имя/Фамилия - латиница или кириллица, не должно быть пробелов и цифр. Из спецсимволов допускается только дефис.-->
 <!--Логин — от 3 до 15 символов, только латиница. Без пробелов, без спецсимволов, кроме нижнего подчеркивания и дефиса. Может содержать числа, но не полностью состоять из них.-->

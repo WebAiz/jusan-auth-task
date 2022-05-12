@@ -30,6 +30,12 @@ input {
     box-sizing: border-box;
 }
 
+input:invalid {
+    border: 1px solid red;
+}
+input:valid {
+    border: 1px solid black;
+}
 
 .container {
     display: flex;
@@ -59,4 +65,7 @@ input {
     width: 100%;
     margin: auto;
     padding: 80px;
+}
+.form__field{
+    width: 100%;
 }
