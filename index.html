@@ -10,15 +10,16 @@
 <main class="container">
     <form action="" class="form" id="log-in" name="login">
         <h1>Login</h1>
-        <div class="form__field">
+        <div class="form-field">
             <label for="login" hidden></label>
-            <input name="login" type="text" id="login" placeholder="Login" required minlength="3" maxlength="15" >
+            <input name="login" type="text" id="login" placeholder="Login" required minlength="3" maxlength="15">
             <span class="error" id="login-too-short" hidden>Login слишком короткое</span>
             <span class="error" id="login-too-long" hidden>Login слишком длинное</span>
         </div>
-        <div class="form__field">
+        <div class="form-field">
             <label for="password" hidden>Password</label>
-            <input name="password" type="password" id="password" placeholder="Password" required minlength="8" maxlength="30">
+            <input name="password" type="password" id="password" placeholder="Password" required minlength="8"
+                   maxlength="30">
         </div>
 
         <button type="submit" class="btn">Sing In</button>

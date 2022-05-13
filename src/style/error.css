@@ -1,4 +1,4 @@
-main{
+main {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -6,13 +6,15 @@ main{
     align-items: center;
     height: 100vh;
     width: 100vw;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
 }
-h2{
+
+h2 {
     font-weight: 400;
     font-size: 20px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #0904f9;
     font-weight: bold;
