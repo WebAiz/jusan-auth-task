@@ -9,7 +9,6 @@
     "eslint": "npx eslint 'src/**.js'"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
     "eslint": "^8.15.0",
     "eslint-config-google": "^0.14.0",
     "parcel": "^2.0.1",
