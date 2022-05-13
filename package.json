@@ -7,7 +7,10 @@
     "build": "parcel build *.html"
   },
   "devDependencies": {
-    "parcel": "^2.0.1"
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "parcel": "^2.0.1",
+    "stylelint": "^14.8.2"
   },
   "author": "Aizada Turarova",
   "license": "MIT"
